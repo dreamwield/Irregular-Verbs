@@ -1,0 +1,834 @@
+{
+  "song_title": "Irregular Verbs Rhyme Song",
+  "file": "01_Irregular_Verbs_Rhyme_Song.mp3",
+  "duration_sec": 524.7058823529412,
+  "bpm": 102,
+  "lyrics": [
+    {
+      "section": "Welcome & Intro",
+      "start": 2.0,
+      "type": "intro",
+      "text": "Yo! Welcome to the Irregular Verbs Song! / Let's get these verbs inside your brain with rhythm and rhyme! / ¡Vamos a aprender los verbos irregulares! / Repeat each form, feel the groove, and let's go!"
+    },
+    {
+      "section": "Chorus 1",
+      "start": 18.82,
+      "type": "chorus",
+      "text": "Irregular verbs, sing them on time! / Learn every form with the rhythm and rhyme! / Infinitive, past, and participle too! / Sing it out loud, let the rhythm guide you!"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 32.94,
+      "type": "verse_header",
+      "text": "Part 1: The Triple Clones (No Change)"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 40.0,
+      "end": 44.12,
+      "type": "verb",
+      "english": "Bet, bet, bet",
+      "spanish": "Apostar"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 44.12,
+      "end": 47.65,
+      "type": "verb",
+      "english": "Cost, cost, cost",
+      "spanish": "Costar"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 47.65,
+      "end": 51.18,
+      "type": "verb",
+      "english": "Cut, cut, cut",
+      "spanish": "Cortar"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 51.18,
+      "end": 54.71,
+      "type": "verb",
+      "english": "Hit, hit, hit",
+      "spanish": "Golpear"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 54.71,
+      "end": 58.24,
+      "type": "verb",
+      "english": "Hurt, hurt, hurt",
+      "spanish": "Herir"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 58.24,
+      "end": 62.35,
+      "type": "verb",
+      "english": "Let, let, let",
+      "spanish": "Permitir"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 62.35,
+      "end": 65.29,
+      "type": "verb",
+      "english": "Put, put, put",
+      "spanish": "Poner"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 65.29,
+      "end": 68.82,
+      "type": "verb",
+      "english": "Read, read, read",
+      "spanish": "Leer"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 68.82,
+      "end": 72.94,
+      "type": "verb",
+      "english": "Set, set, set",
+      "spanish": "Establecer"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 72.94,
+      "end": 75.88,
+      "type": "verb",
+      "english": "Shut, shut, shut",
+      "spanish": "Cerrar"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 75.88,
+      "end": 79.41,
+      "type": "verb",
+      "english": "Split, split, split",
+      "spanish": "Partir"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 79.41,
+      "end": 83.53,
+      "type": "verb",
+      "english": "Spread, spread, spread",
+      "spanish": "Extender"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 83.53,
+      "end": 87.65,
+      "type": "verb",
+      "english": "Burst, burst, burst",
+      "spanish": "Reventar"
+    },
+    {
+      "section": "Part 1: The Triple Clones (No Change)",
+      "start": 87.65,
+      "end": 91.76,
+      "type": "verb",
+      "english": "Wet, wet, wet",
+      "spanish": "Mojar"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 94.12,
+      "type": "verse_header",
+      "text": "Part 2: The I - A - U Vowel Shift"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 101.18,
+      "end": 105.29,
+      "type": "verb",
+      "english": "Sing, sang, sung",
+      "spanish": "Cantar"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 105.29,
+      "end": 109.41,
+      "type": "verb",
+      "english": "Sink, sank, sunk",
+      "spanish": "Hundir"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 109.41,
+      "end": 112.94,
+      "type": "verb",
+      "english": "Drink, drank, drunk",
+      "spanish": "Beber"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 112.94,
+      "end": 116.47,
+      "type": "verb",
+      "english": "Ring, rang, rung",
+      "spanish": "Sonar"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 116.47,
+      "end": 120.59,
+      "type": "verb",
+      "english": "Begin, began, begun",
+      "spanish": "Empezar"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 120.59,
+      "end": 124.71,
+      "type": "verb",
+      "english": "Swim, swam, swum",
+      "spanish": "Nadar"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 124.71,
+      "end": 128.24,
+      "type": "verb",
+      "english": "Run, ran, run",
+      "spanish": "Correr"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 128.24,
+      "end": 132.35,
+      "type": "verb",
+      "english": "Shrink, shrank, shrunk",
+      "spanish": "Encogerse"
+    },
+    {
+      "section": "Part 2: The I - A - U Vowel Shift",
+      "start": 132.35,
+      "end": 136.47,
+      "type": "verb",
+      "english": "Spring, sprang, sprung",
+      "spanish": "Saltar"
+    },
+    {
+      "section": "Part 3: The OUGHT and AUGHT Rhyme Group",
+      "start": 138.82,
+      "type": "verse_header",
+      "text": "Part 3: The OUGHT and AUGHT Rhyme Group"
+    },
+    {
+      "section": "Part 3: The OUGHT and AUGHT Rhyme Group",
+      "start": 143.53,
+      "end": 146.47,
+      "type": "verb",
+      "english": "Bring, brought, brought",
+      "spanish": "Traer"
+    },
+    {
+      "section": "Part 3: The OUGHT and AUGHT Rhyme Group",
+      "start": 146.47,
+      "end": 149.41,
+      "type": "verb",
+      "english": "Buy, bought, bought",
+      "spanish": "Comprar"
+    },
+    {
+      "section": "Part 3: The OUGHT and AUGHT Rhyme Group",
+      "start": 149.41,
+      "end": 152.94,
+      "type": "verb",
+      "english": "Catch, caught, caught",
+      "spanish": "Atrapar"
+    },
+    {
+      "section": "Part 3: The OUGHT and AUGHT Rhyme Group",
+      "start": 152.94,
+      "end": 157.06,
+      "type": "verb",
+      "english": "Fight, fought, fought",
+      "spanish": "Luchar"
+    },
+    {
+      "section": "Part 3: The OUGHT and AUGHT Rhyme Group",
+      "start": 157.06,
+      "end": 161.18,
+      "type": "verb",
+      "english": "Seek, sought, sought",
+      "spanish": "Buscar"
+    },
+    {
+      "section": "Part 3: The OUGHT and AUGHT Rhyme Group",
+      "start": 161.18,
+      "end": 165.29,
+      "type": "verb",
+      "english": "Teach, taught, taught",
+      "spanish": "Enseñar"
+    },
+    {
+      "section": "Part 3: The OUGHT and AUGHT Rhyme Group",
+      "start": 165.29,
+      "end": 168.82,
+      "type": "verb",
+      "english": "Think, thought, thought",
+      "spanish": "Pensar"
+    },
+    {
+      "section": "Chorus 2",
+      "start": 171.76,
+      "type": "chorus",
+      "text": "Irregular verbs, sing them on time! / Learn every form with the rhythm and rhyme! / You are doing great, keep up the pace! / Three forms of verbs in every case!"
+    },
+    {
+      "section": "Part 4: The Blow, Blew, Blown Family",
+      "start": 185.88,
+      "type": "verse_header",
+      "text": "Part 4: The Blow, Blew, Blown Family"
+    },
+    {
+      "section": "Part 4: The Blow, Blew, Blown Family",
+      "start": 192.94,
+      "end": 196.47,
+      "type": "verb",
+      "english": "Blow, blew, blown",
+      "spanish": "Soplar"
+    },
+    {
+      "section": "Part 4: The Blow, Blew, Blown Family",
+      "start": 196.47,
+      "end": 200.0,
+      "type": "verb",
+      "english": "Grow, grew, grown",
+      "spanish": "Crecer"
+    },
+    {
+      "section": "Part 4: The Blow, Blew, Blown Family",
+      "start": 200.0,
+      "end": 203.53,
+      "type": "verb",
+      "english": "Know, knew, known",
+      "spanish": "Saber"
+    },
+    {
+      "section": "Part 4: The Blow, Blew, Blown Family",
+      "start": 203.53,
+      "end": 207.06,
+      "type": "verb",
+      "english": "Throw, threw, thrown",
+      "spanish": "Lanzar"
+    },
+    {
+      "section": "Part 4: The Blow, Blew, Blown Family",
+      "start": 207.06,
+      "end": 210.59,
+      "type": "verb",
+      "english": "Fly, flew, flown",
+      "spanish": "Volar"
+    },
+    {
+      "section": "Part 4: The Blow, Blew, Blown Family",
+      "start": 210.59,
+      "end": 214.12,
+      "type": "verb",
+      "english": "Draw, drew, drawn",
+      "spanish": "Dibujar"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 216.47,
+      "type": "verse_header",
+      "text": "Part 5: Sleep, Slept, Slept Group"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 223.53,
+      "end": 227.65,
+      "type": "verb",
+      "english": "Sleep, slept, slept",
+      "spanish": "Dormir"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 227.65,
+      "end": 231.18,
+      "type": "verb",
+      "english": "Keep, kept, kept",
+      "spanish": "Guardar"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 231.18,
+      "end": 235.29,
+      "type": "verb",
+      "english": "Creep, crept, crept",
+      "spanish": "Arrastrarse"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 235.29,
+      "end": 239.41,
+      "type": "verb",
+      "english": "Feel, felt, felt",
+      "spanish": "Sentir"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 239.41,
+      "end": 243.53,
+      "type": "verb",
+      "english": "Leave, left, left",
+      "spanish": "Dejar"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 243.53,
+      "end": 247.65,
+      "type": "verb",
+      "english": "Meet, met, met",
+      "spanish": "Encontrar"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 247.65,
+      "end": 251.18,
+      "type": "verb",
+      "english": "Feed, fed, fed",
+      "spanish": "Alimentar"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 251.18,
+      "end": 254.71,
+      "type": "verb",
+      "english": "Lead, led, led",
+      "spanish": "Guiar"
+    },
+    {
+      "section": "Part 5: Sleep, Slept, Slept Group",
+      "start": 254.71,
+      "end": 258.82,
+      "type": "verb",
+      "english": "Mean, meant, meant",
+      "spanish": "Significar"
+    },
+    {
+      "section": "Part 6: Turn the D into T",
+      "start": 261.18,
+      "type": "verse_header",
+      "text": "Part 6: Turn the D into T"
+    },
+    {
+      "section": "Part 6: Turn the D into T",
+      "start": 268.24,
+      "end": 272.35,
+      "type": "verb",
+      "english": "Send, sent, sent",
+      "spanish": "Enviar"
+    },
+    {
+      "section": "Part 6: Turn the D into T",
+      "start": 272.35,
+      "end": 276.47,
+      "type": "verb",
+      "english": "Spend, spent, spent",
+      "spanish": "Gastar"
+    },
+    {
+      "section": "Part 6: Turn the D into T",
+      "start": 276.47,
+      "end": 280.59,
+      "type": "verb",
+      "english": "Lend, lent, lent",
+      "spanish": "Prestar"
+    },
+    {
+      "section": "Part 6: Turn the D into T",
+      "start": 280.59,
+      "end": 284.71,
+      "type": "verb",
+      "english": "Bend, bent, bent",
+      "spanish": "Doblar"
+    },
+    {
+      "section": "Part 6: Turn the D into T",
+      "start": 284.71,
+      "end": 288.82,
+      "type": "verb",
+      "english": "Build, built, built",
+      "spanish": "Construir"
+    },
+    {
+      "section": "Part 6: Turn the D into T",
+      "start": 288.82,
+      "end": 292.94,
+      "type": "verb",
+      "english": "Lose, lost, lost",
+      "spanish": "Perder"
+    },
+    {
+      "section": "Part 6: Turn the D into T",
+      "start": 292.94,
+      "end": 296.47,
+      "type": "verb",
+      "english": "Bleed, bled, bled",
+      "spanish": "Sangrar"
+    },
+    {
+      "section": "Chorus 3",
+      "start": 298.82,
+      "type": "chorus",
+      "text": "Irregular verbs, sing them on time! / Every single pattern locked in your mind! / Almost there, don't stop now! / Sing them loud and show them how!"
+    },
+    {
+      "section": "Part 7: Break, Broke, Broken",
+      "start": 312.94,
+      "type": "verse_header",
+      "text": "Part 7: Break, Broke, Broken"
+    },
+    {
+      "section": "Part 7: Break, Broke, Broken",
+      "start": 320.0,
+      "end": 323.53,
+      "type": "verb",
+      "english": "Break, broke, broken",
+      "spanish": "Romper"
+    },
+    {
+      "section": "Part 7: Break, Broke, Broken",
+      "start": 323.53,
+      "end": 327.65,
+      "type": "verb",
+      "english": "Choose, chose, chosen",
+      "spanish": "Elegir"
+    },
+    {
+      "section": "Part 7: Break, Broke, Broken",
+      "start": 327.65,
+      "end": 331.76,
+      "type": "verb",
+      "english": "Freeze, froze, frozen",
+      "spanish": "Congelar"
+    },
+    {
+      "section": "Part 7: Break, Broke, Broken",
+      "start": 331.76,
+      "end": 335.88,
+      "type": "verb",
+      "english": "Speak, spoke, spoken",
+      "spanish": "Hablar"
+    },
+    {
+      "section": "Part 7: Break, Broke, Broken",
+      "start": 335.88,
+      "end": 340.0,
+      "type": "verb",
+      "english": "Steal, stole, stolen",
+      "spanish": "Robar"
+    },
+    {
+      "section": "Part 7: Break, Broke, Broken",
+      "start": 340.0,
+      "end": 344.12,
+      "type": "verb",
+      "english": "Wake, woke, woken",
+      "spanish": "Despertar"
+    },
+    {
+      "section": "Part 8: Wear, Wore, Worn",
+      "start": 345.88,
+      "type": "verse_header",
+      "text": "Part 8: Wear, Wore, Worn"
+    },
+    {
+      "section": "Part 8: Wear, Wore, Worn",
+      "start": 352.94,
+      "end": 357.06,
+      "type": "verb",
+      "english": "Wear, wore, worn",
+      "spanish": "Vestir"
+    },
+    {
+      "section": "Part 8: Wear, Wore, Worn",
+      "start": 357.06,
+      "end": 361.18,
+      "type": "verb",
+      "english": "Tear, tore, torn",
+      "spanish": "Rasgar"
+    },
+    {
+      "section": "Part 8: Wear, Wore, Worn",
+      "start": 361.18,
+      "end": 365.29,
+      "type": "verb",
+      "english": "Swear, swore, sworn",
+      "spanish": "Jurar"
+    },
+    {
+      "section": "Part 8: Wear, Wore, Worn",
+      "start": 365.29,
+      "end": 368.82,
+      "type": "verb",
+      "english": "Bear, bore, born",
+      "spanish": "Soportar"
+    },
+    {
+      "section": "Part 9: Drive, Drove, Driven",
+      "start": 371.76,
+      "type": "verse_header",
+      "text": "Part 9: Drive, Drove, Driven"
+    },
+    {
+      "section": "Part 9: Drive, Drove, Driven",
+      "start": 378.82,
+      "end": 382.94,
+      "type": "verb",
+      "english": "Drive, drove, driven",
+      "spanish": "Conducir"
+    },
+    {
+      "section": "Part 9: Drive, Drove, Driven",
+      "start": 382.94,
+      "end": 386.47,
+      "type": "verb",
+      "english": "Ride, rode, ridden",
+      "spanish": "Montar"
+    },
+    {
+      "section": "Part 9: Drive, Drove, Driven",
+      "start": 386.47,
+      "end": 390.59,
+      "type": "verb",
+      "english": "Rise, rose, risen",
+      "spanish": "Levantarse"
+    },
+    {
+      "section": "Part 9: Drive, Drove, Driven",
+      "start": 390.59,
+      "end": 394.71,
+      "type": "verb",
+      "english": "Write, wrote, written",
+      "spanish": "Escribir"
+    },
+    {
+      "section": "Part 9: Drive, Drove, Driven",
+      "start": 394.71,
+      "end": 398.82,
+      "type": "verb",
+      "english": "Arise, arose, arisen",
+      "spanish": "Surgir"
+    },
+    {
+      "section": "Part 9: Drive, Drove, Driven",
+      "start": 398.82,
+      "end": 402.35,
+      "type": "verb",
+      "english": "Bite, bit, bitten",
+      "spanish": "Morder"
+    },
+    {
+      "section": "Part 9: Drive, Drove, Driven",
+      "start": 402.35,
+      "end": 405.88,
+      "type": "verb",
+      "english": "Hide, hid, hidden",
+      "spanish": "Esconder"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 407.06,
+      "type": "verse_header",
+      "text": "Part 10: Essential Power Verbs"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 414.12,
+      "end": 418.24,
+      "type": "verb",
+      "english": "Be: was or were, been",
+      "spanish": "Ser o estar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 418.24,
+      "end": 421.18,
+      "type": "verb",
+      "english": "Do, did, done",
+      "spanish": "Hacer"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 421.18,
+      "end": 424.71,
+      "type": "verb",
+      "english": "Go, went, gone",
+      "spanish": "Ir"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 424.71,
+      "end": 427.65,
+      "type": "verb",
+      "english": "Have, had, had",
+      "spanish": "Tener"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 427.65,
+      "end": 431.18,
+      "type": "verb",
+      "english": "Come, came, come",
+      "spanish": "Venir"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 431.18,
+      "end": 435.29,
+      "type": "verb",
+      "english": "Become, became, become",
+      "spanish": "Llegar a ser"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 435.29,
+      "end": 438.24,
+      "type": "verb",
+      "english": "Give, gave, given",
+      "spanish": "Dar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 438.24,
+      "end": 442.35,
+      "type": "verb",
+      "english": "Forgive, forgave, forgiven",
+      "spanish": "Perdonar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 442.35,
+      "end": 445.88,
+      "type": "verb",
+      "english": "Get, got, gotten",
+      "spanish": "Obtener"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 445.88,
+      "end": 450.0,
+      "type": "verb",
+      "english": "Forget, forgot, forgotten",
+      "spanish": "Olvidar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 450.0,
+      "end": 453.53,
+      "type": "verb",
+      "english": "See, saw, seen",
+      "spanish": "Ver"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 453.53,
+      "end": 457.06,
+      "type": "verb",
+      "english": "Eat, ate, eaten",
+      "spanish": "Comer"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 457.06,
+      "end": 460.59,
+      "type": "verb",
+      "english": "Fall, fell, fallen",
+      "spanish": "Caer"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 460.59,
+      "end": 464.12,
+      "type": "verb",
+      "english": "Take, took, taken",
+      "spanish": "Tomar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 464.12,
+      "end": 468.24,
+      "type": "verb",
+      "english": "Shake, shook, shaken",
+      "spanish": "Sacudir"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 468.24,
+      "end": 471.18,
+      "type": "verb",
+      "english": "Make, made, made",
+      "spanish": "Hacer"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 471.18,
+      "end": 474.71,
+      "type": "verb",
+      "english": "Say, said, said",
+      "spanish": "Decir"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 474.71,
+      "end": 478.24,
+      "type": "verb",
+      "english": "Pay, paid, paid",
+      "spanish": "Pagar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 478.24,
+      "end": 481.76,
+      "type": "verb",
+      "english": "Tell, told, told",
+      "spanish": "Contar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 481.76,
+      "end": 485.29,
+      "type": "verb",
+      "english": "Sell, sold, sold",
+      "spanish": "Vender"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 485.29,
+      "end": 489.41,
+      "type": "verb",
+      "english": "Find, found, found",
+      "spanish": "Encontrar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 489.41,
+      "end": 492.94,
+      "type": "verb",
+      "english": "Win, won, won",
+      "spanish": "Ganar"
+    },
+    {
+      "section": "Part 10: Essential Power Verbs",
+      "start": 492.94,
+      "end": 498.24,
+      "type": "verb",
+      "english": "Understand, understood, understood",
+      "spanish": "Entender"
+    },
+    {
+      "section": "Outro & Congratulations",
+      "start": 501.18,
+      "type": "outro",
+      "text": "Yeah! You did it! Fantastic job! / ¡Enhorabuena! Has cantado todos los grupos de verbos. / Play this song whenever you study, and you will remember every verb! / Keep singing, keep grooving, and see you next time!"
+    }
+  ]
+}

@@ -1,0 +1,1574 @@
+{
+  "total": 154,
+  "families": {
+    "no_change": "The 'No Change' Verbs (All 3 Forms Identical)",
+    "i_a_u": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+    "ought_aught": "The 'Ought / Aught' Rhymers (Bring - Brought - Brought)",
+    "ow_ew_own": "The 'Blow - Blew - Blown' Family",
+    "wake_woke_woken": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+    "ear_ore_orn": "The 'Wear - Wore - Worn' Group",
+    "i_o_en": "The 'Drive - Drove - Driven' Group",
+    "ee_to_ept": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+    "ee_to_e": "The Short Vowel Shift (Bleed - Bled - Bled)",
+    "d_to_t": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+    "ind_ound": "The 'Bind - Bound - Bound' / Find Group",
+    "ing_ung": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+    "come_came_come": "The 'Come / Become / Overcome' Family",
+    "take_took_taken": "The 'Take - Took - Taken' / Shake Family",
+    "give_gave_given": "The 'Give - Gave - Given' / Forgive Group",
+    "get_got_gotten": "The 'Get - Got - Gotten' / Forget Group",
+    "ay_aid_aid": "The 'Say - Said - Said' / Pay / Lay Group",
+    "ell_old_old": "The 'Sell - Sold - Sold' / Tell Group",
+    "i_short_en": "The Short 'I' / Vowel Reduction Group",
+    "stand_stood_stood": "The 'Stand - Stood - Stood' Family",
+    "core_essential": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+    "special_en": "The '-en' Participle Group (Show - Showed - Shown...)",
+    "special_t": "Unique Irregular Patterns (Hear, Hold...)",
+    "beat_beaten": "The 'Beat - Beat - Beaten' Pattern",
+    "see_saw_seen": "The 'See - Saw - Seen' Pattern",
+    "lie_lay_lain": "The 'Lie - Lay - Lain' Pattern",
+    "make_made_made": "The 'Make - Made - Made' Pattern"
+  },
+  "verbs": [
+    {
+      "id": 1,
+      "infinitive": "Arise",
+      "past_simple": "Arose",
+      "past_participle": "Arisen",
+      "spanish": "Surgir, Levantarse",
+      "family_id": "i_o_en",
+      "family_name": "The 'Drive - Drove - Driven' Group",
+      "search_text": "arise arose arisen surgir, levantarse"
+    },
+    {
+      "id": 2,
+      "infinitive": "Awake",
+      "past_simple": "Awoke",
+      "past_participle": "Awoken",
+      "spanish": "Despertarse",
+      "family_id": "wake_woke_woken",
+      "family_name": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+      "search_text": "awake awoke awoken despertarse"
+    },
+    {
+      "id": 3,
+      "infinitive": "Be (am, are, is)",
+      "past_simple": "Was / Were",
+      "past_participle": "Been",
+      "spanish": "Ser / Estar",
+      "family_id": "core_essential",
+      "family_name": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+      "search_text": "be (am, are, is) was / were been ser / estar"
+    },
+    {
+      "id": 4,
+      "infinitive": "Bear",
+      "past_simple": "Bore",
+      "past_participle": "Borne / Born",
+      "spanish": "Soportar, dar a luz",
+      "family_id": "ear_ore_orn",
+      "family_name": "The 'Wear - Wore - Worn' Group",
+      "search_text": "bear bore borne / born soportar, dar a luz"
+    },
+    {
+      "id": 5,
+      "infinitive": "Beat",
+      "past_simple": "Beat",
+      "past_participle": "Beaten",
+      "spanish": "Golpear",
+      "family_id": "beat_beaten",
+      "family_name": "The 'Beat - Beat - Beaten' Pattern",
+      "search_text": "beat beat beaten golpear"
+    },
+    {
+      "id": 6,
+      "infinitive": "Become",
+      "past_simple": "Became",
+      "past_participle": "Become",
+      "spanish": "Llegar a Ser",
+      "family_id": "come_came_come",
+      "family_name": "The 'Come / Become / Overcome' Family",
+      "search_text": "become became become llegar a ser"
+    },
+    {
+      "id": 7,
+      "infinitive": "Begin",
+      "past_simple": "Began",
+      "past_participle": "Begun",
+      "spanish": "Empezar",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "begin began begun empezar"
+    },
+    {
+      "id": 8,
+      "infinitive": "Bend",
+      "past_simple": "Bent",
+      "past_participle": "Bent",
+      "spanish": "Doblar",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "bend bent bent doblar"
+    },
+    {
+      "id": 9,
+      "infinitive": "Bet",
+      "past_simple": "Bet",
+      "past_participle": "Bet",
+      "spanish": "Apostar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "bet bet bet apostar"
+    },
+    {
+      "id": 10,
+      "infinitive": "Bind",
+      "past_simple": "Bound",
+      "past_participle": "Bound",
+      "spanish": "Atar, encuadernar",
+      "family_id": "ind_ound",
+      "family_name": "The 'Bind - Bound - Bound' / Find Group",
+      "search_text": "bind bound bound atar, encuadernar"
+    },
+    {
+      "id": 11,
+      "infinitive": "Bid",
+      "past_simple": "Bid",
+      "past_participle": "Bid",
+      "spanish": "Pujar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "bid bid bid pujar"
+    },
+    {
+      "id": 12,
+      "infinitive": "Bite",
+      "past_simple": "Bit",
+      "past_participle": "Bitten",
+      "spanish": "Morder",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "bite bit bitten morder"
+    },
+    {
+      "id": 13,
+      "infinitive": "Bleed",
+      "past_simple": "Bled",
+      "past_participle": "Bled",
+      "spanish": "Sangrar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "bleed bled bled sangrar"
+    },
+    {
+      "id": 14,
+      "infinitive": "Blow",
+      "past_simple": "Blew",
+      "past_participle": "Blown",
+      "spanish": "Soplar",
+      "family_id": "ow_ew_own",
+      "family_name": "The 'Blow - Blew - Blown' Family",
+      "search_text": "blow blew blown soplar"
+    },
+    {
+      "id": 15,
+      "infinitive": "Break",
+      "past_simple": "Broke",
+      "past_participle": "Broken",
+      "spanish": "Romper",
+      "family_id": "wake_woke_woken",
+      "family_name": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+      "search_text": "break broke broken romper"
+    },
+    {
+      "id": 16,
+      "infinitive": "Breed",
+      "past_simple": "Bred",
+      "past_participle": "Bred",
+      "spanish": "Criar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "breed bred bred criar"
+    },
+    {
+      "id": 17,
+      "infinitive": "Bring",
+      "past_simple": "Brought",
+      "past_participle": "Brought",
+      "spanish": "Traer, Llevar",
+      "family_id": "ought_aught",
+      "family_name": "The 'Ought / Aught' Rhymers (Bring - Brought - Brought)",
+      "search_text": "bring brought brought traer, llevar"
+    },
+    {
+      "id": 18,
+      "infinitive": "Broadcast",
+      "past_simple": "Broadcast",
+      "past_participle": "Broadcast",
+      "spanish": "Radiar, Emitir",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "broadcast broadcast broadcast radiar, emitir"
+    },
+    {
+      "id": 19,
+      "infinitive": "Build",
+      "past_simple": "Built",
+      "past_participle": "Built",
+      "spanish": "Edificar, Construir",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "build built built edificar, construir"
+    },
+    {
+      "id": 20,
+      "infinitive": "Burn",
+      "past_simple": "Burnt / Burned",
+      "past_participle": "Burnt / Burned",
+      "spanish": "Quemar",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "burn burnt / burned burnt / burned quemar"
+    },
+    {
+      "id": 21,
+      "infinitive": "Burst",
+      "past_simple": "Burst",
+      "past_participle": "Burst",
+      "spanish": "Reventar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "burst burst burst reventar"
+    },
+    {
+      "id": 22,
+      "infinitive": "Buy",
+      "past_simple": "Bought",
+      "past_participle": "Bought",
+      "spanish": "Comprar",
+      "family_id": "ought_aught",
+      "family_name": "The 'Ought / Aught' Rhymers (Bring - Brought - Brought)",
+      "search_text": "buy bought bought comprar"
+    },
+    {
+      "id": 23,
+      "infinitive": "Cast",
+      "past_simple": "Cast",
+      "past_participle": "Cast",
+      "spanish": "Arrojar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "cast cast cast arrojar"
+    },
+    {
+      "id": 24,
+      "infinitive": "Catch",
+      "past_simple": "Caught",
+      "past_participle": "Caught",
+      "spanish": "Coger, Atrapar",
+      "family_id": "ought_aught",
+      "family_name": "The 'Ought / Aught' Rhymers (Bring - Brought - Brought)",
+      "search_text": "catch caught caught coger, atrapar"
+    },
+    {
+      "id": 25,
+      "infinitive": "Come",
+      "past_simple": "Came",
+      "past_participle": "Come",
+      "spanish": "Venir",
+      "family_id": "come_came_come",
+      "family_name": "The 'Come / Become / Overcome' Family",
+      "search_text": "come came come venir"
+    },
+    {
+      "id": 26,
+      "infinitive": "Cost",
+      "past_simple": "Cost",
+      "past_participle": "Cost",
+      "spanish": "Costar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "cost cost cost costar"
+    },
+    {
+      "id": 27,
+      "infinitive": "Cut",
+      "past_simple": "Cut",
+      "past_participle": "Cut",
+      "spanish": "Cortar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "cut cut cut cortar"
+    },
+    {
+      "id": 28,
+      "infinitive": "Choose",
+      "past_simple": "Chose",
+      "past_participle": "Chosen",
+      "spanish": "Elegir",
+      "family_id": "wake_woke_woken",
+      "family_name": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+      "search_text": "choose chose chosen elegir"
+    },
+    {
+      "id": 29,
+      "infinitive": "Cling",
+      "past_simple": "Clung",
+      "past_participle": "Clung",
+      "spanish": "Agarrarse",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "cling clung clung agarrarse"
+    },
+    {
+      "id": 30,
+      "infinitive": "Creep",
+      "past_simple": "Crept",
+      "past_participle": "Crept",
+      "spanish": "Arrastrarse",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "creep crept crept arrastrarse"
+    },
+    {
+      "id": 31,
+      "infinitive": "Deal",
+      "past_simple": "Dealt",
+      "past_participle": "Dealt",
+      "spanish": "Tratar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "deal dealt dealt tratar"
+    },
+    {
+      "id": 32,
+      "infinitive": "Dig",
+      "past_simple": "Dug",
+      "past_participle": "Dug",
+      "spanish": "Cavar",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "dig dug dug cavar"
+    },
+    {
+      "id": 33,
+      "infinitive": "Do (Does)",
+      "past_simple": "Did",
+      "past_participle": "Done",
+      "spanish": "Hacer",
+      "family_id": "core_essential",
+      "family_name": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+      "search_text": "do (does) did done hacer"
+    },
+    {
+      "id": 34,
+      "infinitive": "Draw",
+      "past_simple": "Drew",
+      "past_participle": "Drawn",
+      "spanish": "Dibujar",
+      "family_id": "ow_ew_own",
+      "family_name": "The 'Blow - Blew - Blown' Family",
+      "search_text": "draw drew drawn dibujar"
+    },
+    {
+      "id": 35,
+      "infinitive": "Dream",
+      "past_simple": "Dreamt / Dreamed",
+      "past_participle": "Dreamt / Dreamed",
+      "spanish": "Soñar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "dream dreamt / dreamed dreamt / dreamed soñar"
+    },
+    {
+      "id": 36,
+      "infinitive": "Drink",
+      "past_simple": "Drank",
+      "past_participle": "Drunk",
+      "spanish": "Beber",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "drink drank drunk beber"
+    },
+    {
+      "id": 37,
+      "infinitive": "Drive",
+      "past_simple": "Drove",
+      "past_participle": "Driven",
+      "spanish": "Conducir",
+      "family_id": "i_o_en",
+      "family_name": "The 'Drive - Drove - Driven' Group",
+      "search_text": "drive drove driven conducir"
+    },
+    {
+      "id": 38,
+      "infinitive": "Eat",
+      "past_simple": "Ate",
+      "past_participle": "Eaten",
+      "spanish": "Comer",
+      "family_id": "core_essential",
+      "family_name": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+      "search_text": "eat ate eaten comer"
+    },
+    {
+      "id": 39,
+      "infinitive": "Fall",
+      "past_simple": "Fell",
+      "past_participle": "Fallen",
+      "spanish": "Caer",
+      "family_id": "core_essential",
+      "family_name": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+      "search_text": "fall fell fallen caer"
+    },
+    {
+      "id": 40,
+      "infinitive": "Feed",
+      "past_simple": "Fed",
+      "past_participle": "Fed",
+      "spanish": "Alimentar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "feed fed fed alimentar"
+    },
+    {
+      "id": 41,
+      "infinitive": "Feel",
+      "past_simple": "Felt",
+      "past_participle": "Felt",
+      "spanish": "Sentir",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "feel felt felt sentir"
+    },
+    {
+      "id": 42,
+      "infinitive": "Fight",
+      "past_simple": "Fought",
+      "past_participle": "Fought",
+      "spanish": "Luchar",
+      "family_id": "ought_aught",
+      "family_name": "The 'Ought / Aught' Rhymers (Bring - Brought - Brought)",
+      "search_text": "fight fought fought luchar"
+    },
+    {
+      "id": 43,
+      "infinitive": "Find",
+      "past_simple": "Found",
+      "past_participle": "Found",
+      "spanish": "Encontrar",
+      "family_id": "ind_ound",
+      "family_name": "The 'Bind - Bound - Bound' / Find Group",
+      "search_text": "find found found encontrar"
+    },
+    {
+      "id": 44,
+      "infinitive": "Flee",
+      "past_simple": "Fled",
+      "past_participle": "Fled",
+      "spanish": "Huir",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "flee fled fled huir"
+    },
+    {
+      "id": 45,
+      "infinitive": "Fly",
+      "past_simple": "Flew",
+      "past_participle": "Flown",
+      "spanish": "Volar",
+      "family_id": "ow_ew_own",
+      "family_name": "The 'Blow - Blew - Blown' Family",
+      "search_text": "fly flew flown volar"
+    },
+    {
+      "id": 46,
+      "infinitive": "Forbid",
+      "past_simple": "Forbade",
+      "past_participle": "Forbidden",
+      "spanish": "Prohibir",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "forbid forbade forbidden prohibir"
+    },
+    {
+      "id": 47,
+      "infinitive": "Forget",
+      "past_simple": "Forgot",
+      "past_participle": "Forgotten",
+      "spanish": "Olvidar",
+      "family_id": "get_got_gotten",
+      "family_name": "The 'Get - Got - Gotten' / Forget Group",
+      "search_text": "forget forgot forgotten olvidar"
+    },
+    {
+      "id": 48,
+      "infinitive": "Forgive",
+      "past_simple": "Forgave",
+      "past_participle": "Forgiven",
+      "spanish": "Perdonar",
+      "family_id": "give_gave_given",
+      "family_name": "The 'Give - Gave - Given' / Forgive Group",
+      "search_text": "forgive forgave forgiven perdonar"
+    },
+    {
+      "id": 49,
+      "infinitive": "Freeze",
+      "past_simple": "Froze",
+      "past_participle": "Frozen",
+      "spanish": "Helar, Congelar",
+      "family_id": "wake_woke_woken",
+      "family_name": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+      "search_text": "freeze froze frozen helar, congelar"
+    },
+    {
+      "id": 50,
+      "infinitive": "Get",
+      "past_simple": "Got",
+      "past_participle": "Got / Gotten",
+      "spanish": "Obtener, Conseguir",
+      "family_id": "get_got_gotten",
+      "family_name": "The 'Get - Got - Gotten' / Forget Group",
+      "search_text": "get got got / gotten obtener, conseguir"
+    },
+    {
+      "id": 51,
+      "infinitive": "Give",
+      "past_simple": "Gave",
+      "past_participle": "Given",
+      "spanish": "Dar",
+      "family_id": "give_gave_given",
+      "family_name": "The 'Give - Gave - Given' / Forgive Group",
+      "search_text": "give gave given dar"
+    },
+    {
+      "id": 52,
+      "infinitive": "Go (Goes)",
+      "past_simple": "Went",
+      "past_participle": "Gone",
+      "spanish": "Ir",
+      "family_id": "core_essential",
+      "family_name": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+      "search_text": "go (goes) went gone ir"
+    },
+    {
+      "id": 53,
+      "infinitive": "Grow",
+      "past_simple": "Grew",
+      "past_participle": "Grown",
+      "spanish": "Crecer",
+      "family_id": "ow_ew_own",
+      "family_name": "The 'Blow - Blew - Blown' Family",
+      "search_text": "grow grew grown crecer"
+    },
+    {
+      "id": 54,
+      "infinitive": "Grind",
+      "past_simple": "Ground",
+      "past_participle": "Ground",
+      "spanish": "Moler",
+      "family_id": "ind_ound",
+      "family_name": "The 'Bind - Bound - Bound' / Find Group",
+      "search_text": "grind ground ground moler"
+    },
+    {
+      "id": 55,
+      "infinitive": "Hang",
+      "past_simple": "Hung",
+      "past_participle": "Hung",
+      "spanish": "Colgar",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "hang hung hung colgar"
+    },
+    {
+      "id": 56,
+      "infinitive": "Have",
+      "past_simple": "Had",
+      "past_participle": "Had",
+      "spanish": "Haber o Tener",
+      "family_id": "core_essential",
+      "family_name": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+      "search_text": "have had had haber o tener"
+    },
+    {
+      "id": 57,
+      "infinitive": "Hear",
+      "past_simple": "Heard",
+      "past_participle": "Heard",
+      "spanish": "Oír",
+      "family_id": "special_t",
+      "family_name": "Unique Irregular Patterns (Hear, Hold...)",
+      "search_text": "hear heard heard oír"
+    },
+    {
+      "id": 58,
+      "infinitive": "Hide",
+      "past_simple": "Hid",
+      "past_participle": "Hidden",
+      "spanish": "Ocultar, Esconder",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "hide hid hidden ocultar, esconder"
+    },
+    {
+      "id": 59,
+      "infinitive": "Hit",
+      "past_simple": "Hit",
+      "past_participle": "Hit",
+      "spanish": "Golpear",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "hit hit hit golpear"
+    },
+    {
+      "id": 60,
+      "infinitive": "Hold",
+      "past_simple": "Held",
+      "past_participle": "Held",
+      "spanish": "Agarrar, Celebrar",
+      "family_id": "special_t",
+      "family_name": "Unique Irregular Patterns (Hear, Hold...)",
+      "search_text": "hold held held agarrar, celebrar"
+    },
+    {
+      "id": 61,
+      "infinitive": "Hurt",
+      "past_simple": "Hurt",
+      "past_participle": "Hurt",
+      "spanish": "Herir, Doler",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "hurt hurt hurt herir, doler"
+    },
+    {
+      "id": 62,
+      "infinitive": "Keep",
+      "past_simple": "Kept",
+      "past_participle": "Kept",
+      "spanish": "Conservar, Guardar",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "keep kept kept conservar, guardar"
+    },
+    {
+      "id": 63,
+      "infinitive": "Know",
+      "past_simple": "Knew",
+      "past_participle": "Known",
+      "spanish": "Saber, Conocer",
+      "family_id": "ow_ew_own",
+      "family_name": "The 'Blow - Blew - Blown' Family",
+      "search_text": "know knew known saber, conocer"
+    },
+    {
+      "id": 64,
+      "infinitive": "Kneel",
+      "past_simple": "Knelt",
+      "past_participle": "Knelt",
+      "spanish": "Arrodillarse",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "kneel knelt knelt arrodillarse"
+    },
+    {
+      "id": 65,
+      "infinitive": "Knit",
+      "past_simple": "Knit",
+      "past_participle": "Knit",
+      "spanish": "Hacer punto, Tejer",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "knit knit knit hacer punto, tejer"
+    },
+    {
+      "id": 66,
+      "infinitive": "Lay",
+      "past_simple": "Laid",
+      "past_participle": "Laid",
+      "spanish": "Poner, Colocar",
+      "family_id": "ay_aid_aid",
+      "family_name": "The 'Say - Said - Said' / Pay / Lay Group",
+      "search_text": "lay laid laid poner, colocar"
+    },
+    {
+      "id": 67,
+      "infinitive": "Lead",
+      "past_simple": "Led",
+      "past_participle": "Led",
+      "spanish": "Conducir, Guiar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "lead led led conducir, guiar"
+    },
+    {
+      "id": 68,
+      "infinitive": "Lean",
+      "past_simple": "Leant",
+      "past_participle": "Leant",
+      "spanish": "Apoyarse",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "lean leant leant apoyarse"
+    },
+    {
+      "id": 69,
+      "infinitive": "Leap",
+      "past_simple": "Leapt",
+      "past_participle": "Leapt",
+      "spanish": "Brincar, Saltar",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "leap leapt leapt brincar, saltar"
+    },
+    {
+      "id": 70,
+      "infinitive": "Learn",
+      "past_simple": "Learnt / Learned",
+      "past_participle": "Learnt / Learned",
+      "spanish": "Aprender",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "learn learnt / learned learnt / learned aprender"
+    },
+    {
+      "id": 71,
+      "infinitive": "Leave",
+      "past_simple": "Left",
+      "past_participle": "Left",
+      "spanish": "Dejar, Salir",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "leave left left dejar, salir"
+    },
+    {
+      "id": 72,
+      "infinitive": "Lend",
+      "past_simple": "Lent",
+      "past_participle": "Lent",
+      "spanish": "Prestar",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "lend lent lent prestar"
+    },
+    {
+      "id": 73,
+      "infinitive": "Let",
+      "past_simple": "Let",
+      "past_participle": "Let",
+      "spanish": "Permitir, Dejar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "let let let permitir, dejar"
+    },
+    {
+      "id": 74,
+      "infinitive": "Lie",
+      "past_simple": "Lay",
+      "past_participle": "Lain",
+      "spanish": "Echarse, Yacer",
+      "family_id": "lie_lay_lain",
+      "family_name": "The 'Lie - Lay - Lain' Pattern",
+      "search_text": "lie lay lain echarse, yacer"
+    },
+    {
+      "id": 75,
+      "infinitive": "Light",
+      "past_simple": "Lit",
+      "past_participle": "Lit",
+      "spanish": "Encender",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "light lit lit encender"
+    },
+    {
+      "id": 76,
+      "infinitive": "Lose",
+      "past_simple": "Lost",
+      "past_participle": "Lost",
+      "spanish": "Perder",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "lose lost lost perder"
+    },
+    {
+      "id": 77,
+      "infinitive": "Make",
+      "past_simple": "Made",
+      "past_participle": "Made",
+      "spanish": "Hacer, Fabricar",
+      "family_id": "make_made_made",
+      "family_name": "The 'Make - Made - Made' Pattern",
+      "search_text": "make made made hacer, fabricar"
+    },
+    {
+      "id": 78,
+      "infinitive": "Mean",
+      "past_simple": "Meant",
+      "past_participle": "Meant",
+      "spanish": "Significar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "mean meant meant significar"
+    },
+    {
+      "id": 79,
+      "infinitive": "Meet",
+      "past_simple": "Met",
+      "past_participle": "Met",
+      "spanish": "Encontrar, Conocer",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "meet met met encontrar, conocer"
+    },
+    {
+      "id": 80,
+      "infinitive": "Mistake",
+      "past_simple": "Mistook",
+      "past_participle": "Mistaken",
+      "spanish": "Equivocar",
+      "family_id": "take_took_taken",
+      "family_name": "The 'Take - Took - Taken' / Shake Family",
+      "search_text": "mistake mistook mistaken equivocar"
+    },
+    {
+      "id": 81,
+      "infinitive": "Overcome",
+      "past_simple": "Overcame",
+      "past_participle": "Overcome",
+      "spanish": "Vencer, Superar",
+      "family_id": "come_came_come",
+      "family_name": "The 'Come / Become / Overcome' Family",
+      "search_text": "overcome overcame overcome vencer, superar"
+    },
+    {
+      "id": 82,
+      "infinitive": "Pay",
+      "past_simple": "Paid",
+      "past_participle": "Paid",
+      "spanish": "Pagar",
+      "family_id": "ay_aid_aid",
+      "family_name": "The 'Say - Said - Said' / Pay / Lay Group",
+      "search_text": "pay paid paid pagar"
+    },
+    {
+      "id": 83,
+      "infinitive": "Put",
+      "past_simple": "Put",
+      "past_participle": "Put",
+      "spanish": "Poner",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "put put put poner"
+    },
+    {
+      "id": 84,
+      "infinitive": "Read",
+      "past_simple": "Read",
+      "past_participle": "Read",
+      "spanish": "Leer",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "read read read leer"
+    },
+    {
+      "id": 85,
+      "infinitive": "Ride",
+      "past_simple": "Rode",
+      "past_participle": "Ridden",
+      "spanish": "Montar",
+      "family_id": "i_o_en",
+      "family_name": "The 'Drive - Drove - Driven' Group",
+      "search_text": "ride rode ridden montar"
+    },
+    {
+      "id": 86,
+      "infinitive": "Ring",
+      "past_simple": "Rang",
+      "past_participle": "Rung",
+      "spanish": "Llamar, Sonar",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "ring rang rung llamar, sonar"
+    },
+    {
+      "id": 87,
+      "infinitive": "Rise",
+      "past_simple": "Rose",
+      "past_participle": "Risen",
+      "spanish": "Levantarse",
+      "family_id": "i_o_en",
+      "family_name": "The 'Drive - Drove - Driven' Group",
+      "search_text": "rise rose risen levantarse"
+    },
+    {
+      "id": 88,
+      "infinitive": "Run",
+      "past_simple": "Ran",
+      "past_participle": "Run",
+      "spanish": "Correr",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "run ran run correr"
+    },
+    {
+      "id": 89,
+      "infinitive": "Say",
+      "past_simple": "Said",
+      "past_participle": "Said",
+      "spanish": "Decir",
+      "family_id": "ay_aid_aid",
+      "family_name": "The 'Say - Said - Said' / Pay / Lay Group",
+      "search_text": "say said said decir"
+    },
+    {
+      "id": 90,
+      "infinitive": "See",
+      "past_simple": "Saw",
+      "past_participle": "Seen",
+      "spanish": "Ver",
+      "family_id": "see_saw_seen",
+      "family_name": "The 'See - Saw - Seen' Pattern",
+      "search_text": "see saw seen ver"
+    },
+    {
+      "id": 91,
+      "infinitive": "Seek",
+      "past_simple": "Sought",
+      "past_participle": "Sought",
+      "spanish": "Buscar",
+      "family_id": "ought_aught",
+      "family_name": "The 'Ought / Aught' Rhymers (Bring - Brought - Brought)",
+      "search_text": "seek sought sought buscar"
+    },
+    {
+      "id": 92,
+      "infinitive": "Sell",
+      "past_simple": "Sold",
+      "past_participle": "Sold",
+      "spanish": "Vender",
+      "family_id": "ell_old_old",
+      "family_name": "The 'Sell - Sold - Sold' / Tell Group",
+      "search_text": "sell sold sold vender"
+    },
+    {
+      "id": 93,
+      "infinitive": "Send",
+      "past_simple": "Sent",
+      "past_participle": "Sent",
+      "spanish": "Enviar",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "send sent sent enviar"
+    },
+    {
+      "id": 94,
+      "infinitive": "Set",
+      "past_simple": "Set",
+      "past_participle": "Set",
+      "spanish": "Poner(se), Establecer",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "set set set poner(se), establecer"
+    },
+    {
+      "id": 95,
+      "infinitive": "Sew",
+      "past_simple": "Sewed",
+      "past_participle": "Sewed / Sewn",
+      "spanish": "Coser",
+      "family_id": "special_en",
+      "family_name": "The '-en' Participle Group (Show - Showed - Shown...)",
+      "search_text": "sew sewed sewed / sewn coser"
+    },
+    {
+      "id": 96,
+      "infinitive": "Shake",
+      "past_simple": "Shook",
+      "past_participle": "Shaken",
+      "spanish": "Sacudir",
+      "family_id": "take_took_taken",
+      "family_name": "The 'Take - Took - Taken' / Shake Family",
+      "search_text": "shake shook shaken sacudir"
+    },
+    {
+      "id": 97,
+      "infinitive": "Shear",
+      "past_simple": "Shore",
+      "past_participle": "Shorn",
+      "spanish": "Esquilar",
+      "family_id": "ear_ore_orn",
+      "family_name": "The 'Wear - Wore - Worn' Group",
+      "search_text": "shear shore shorn esquilar"
+    },
+    {
+      "id": 98,
+      "infinitive": "Shine",
+      "past_simple": "Shone",
+      "past_participle": "Shone",
+      "spanish": "Brillar",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "shine shone shone brillar"
+    },
+    {
+      "id": 99,
+      "infinitive": "Shoot",
+      "past_simple": "Shot",
+      "past_participle": "Shot",
+      "spanish": "Disparar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "shoot shot shot disparar"
+    },
+    {
+      "id": 100,
+      "infinitive": "Show",
+      "past_simple": "Showed",
+      "past_participle": "Shown",
+      "spanish": "Mostrar",
+      "family_id": "special_en",
+      "family_name": "The '-en' Participle Group (Show - Showed - Shown...)",
+      "search_text": "show showed shown mostrar"
+    },
+    {
+      "id": 101,
+      "infinitive": "Shrink",
+      "past_simple": "Shrank",
+      "past_participle": "Shrunk",
+      "spanish": "Encogerse",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "shrink shrank shrunk encogerse"
+    },
+    {
+      "id": 102,
+      "infinitive": "Shut",
+      "past_simple": "Shut",
+      "past_participle": "Shut",
+      "spanish": "Cerrar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "shut shut shut cerrar"
+    },
+    {
+      "id": 103,
+      "infinitive": "Sing",
+      "past_simple": "Sang",
+      "past_participle": "Sung",
+      "spanish": "Cantar",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "sing sang sung cantar"
+    },
+    {
+      "id": 104,
+      "infinitive": "Sink",
+      "past_simple": "Sank",
+      "past_participle": "Sunk",
+      "spanish": "Hundir",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "sink sank sunk hundir"
+    },
+    {
+      "id": 105,
+      "infinitive": "Sit",
+      "past_simple": "Sat",
+      "past_participle": "Sat",
+      "spanish": "Sentarse",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "sit sat sat sentarse"
+    },
+    {
+      "id": 106,
+      "infinitive": "Sleep",
+      "past_simple": "Slept",
+      "past_participle": "Slept",
+      "spanish": "Dormir",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "sleep slept slept dormir"
+    },
+    {
+      "id": 107,
+      "infinitive": "Slide",
+      "past_simple": "Slid",
+      "past_participle": "Slid",
+      "spanish": "Resbalar, Deslizar",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "slide slid slid resbalar, deslizar"
+    },
+    {
+      "id": 108,
+      "infinitive": "Smell",
+      "past_simple": "Smelt",
+      "past_participle": "Smelt",
+      "spanish": "Oler",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "smell smelt smelt oler"
+    },
+    {
+      "id": 109,
+      "infinitive": "Sow",
+      "past_simple": "Sowed",
+      "past_participle": "Sowed / Sown",
+      "spanish": "Sembrar",
+      "family_id": "special_en",
+      "family_name": "The '-en' Participle Group (Show - Showed - Shown...)",
+      "search_text": "sow sowed sowed / sown sembrar"
+    },
+    {
+      "id": 110,
+      "infinitive": "Speak",
+      "past_simple": "Spoke",
+      "past_participle": "Spoken",
+      "spanish": "Hablar",
+      "family_id": "wake_woke_woken",
+      "family_name": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+      "search_text": "speak spoke spoken hablar"
+    },
+    {
+      "id": 111,
+      "infinitive": "Speed",
+      "past_simple": "Sped",
+      "past_participle": "Sped",
+      "spanish": "Acelerar",
+      "family_id": "ee_to_e",
+      "family_name": "The Short Vowel Shift (Bleed - Bled - Bled)",
+      "search_text": "speed sped sped acelerar"
+    },
+    {
+      "id": 112,
+      "infinitive": "Spell",
+      "past_simple": "Spelt",
+      "past_participle": "Spelt",
+      "spanish": "Deletrear",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "spell spelt spelt deletrear"
+    },
+    {
+      "id": 113,
+      "infinitive": "Spend",
+      "past_simple": "Spent",
+      "past_participle": "Spent",
+      "spanish": "Gastar, Pasar tiempo",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "spend spent spent gastar, pasar tiempo"
+    },
+    {
+      "id": 114,
+      "infinitive": "Spill",
+      "past_simple": "Spilt / Spilled",
+      "past_participle": "Spilt / Spilled",
+      "spanish": "Derramar",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "spill spilt / spilled spilt / spilled derramar"
+    },
+    {
+      "id": 115,
+      "infinitive": "Spin",
+      "past_simple": "Spun",
+      "past_participle": "Spun",
+      "spanish": "Hilar, Girar",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "spin spun spun hilar, girar"
+    },
+    {
+      "id": 116,
+      "infinitive": "Spit",
+      "past_simple": "Spat",
+      "past_participle": "Spat",
+      "spanish": "Escupir",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "spit spat spat escupir"
+    },
+    {
+      "id": 117,
+      "infinitive": "Split",
+      "past_simple": "Split",
+      "past_participle": "Split",
+      "spanish": "Hender, partir, rajar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "split split split hender, partir, rajar"
+    },
+    {
+      "id": 118,
+      "infinitive": "Spoil",
+      "past_simple": "Spoilt / Spoiled",
+      "past_participle": "Spoilt / Spoiled",
+      "spanish": "Estropear",
+      "family_id": "d_to_t",
+      "family_name": "The 'D to T' Endings (Send - Sent - Sent / Build)",
+      "search_text": "spoil spoilt / spoiled spoilt / spoiled estropear"
+    },
+    {
+      "id": 119,
+      "infinitive": "Spread",
+      "past_simple": "Spread",
+      "past_participle": "Spread",
+      "spanish": "Extender, Esparcir",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "spread spread spread extender, esparcir"
+    },
+    {
+      "id": 120,
+      "infinitive": "Spring",
+      "past_simple": "Sprang",
+      "past_participle": "Sprung",
+      "spanish": "Saltar, Brotar",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "spring sprang sprung saltar, brotar"
+    },
+    {
+      "id": 121,
+      "infinitive": "Stand",
+      "past_simple": "Stood",
+      "past_participle": "Stood",
+      "spanish": "Estar en pie",
+      "family_id": "stand_stood_stood",
+      "family_name": "The 'Stand - Stood - Stood' Family",
+      "search_text": "stand stood stood estar en pie"
+    },
+    {
+      "id": 122,
+      "infinitive": "Steal",
+      "past_simple": "Stole",
+      "past_participle": "Stolen",
+      "spanish": "Robar",
+      "family_id": "wake_woke_woken",
+      "family_name": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+      "search_text": "steal stole stolen robar"
+    },
+    {
+      "id": 123,
+      "infinitive": "Stick",
+      "past_simple": "Stuck",
+      "past_participle": "Stuck",
+      "spanish": "Pegar, Engomar",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "stick stuck stuck pegar, engomar"
+    },
+    {
+      "id": 124,
+      "infinitive": "Sting",
+      "past_simple": "Stung",
+      "past_participle": "Stung",
+      "spanish": "Picar",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "sting stung stung picar"
+    },
+    {
+      "id": 125,
+      "infinitive": "Stink",
+      "past_simple": "Stank / Stunk",
+      "past_participle": "Stunk",
+      "spanish": "Apestar",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "stink stank / stunk stunk apestar"
+    },
+    {
+      "id": 126,
+      "infinitive": "Stride",
+      "past_simple": "Strode",
+      "past_participle": "Stridden",
+      "spanish": "Dar zancadas",
+      "family_id": "i_o_en",
+      "family_name": "The 'Drive - Drove - Driven' Group",
+      "search_text": "stride strode stridden dar zancadas"
+    },
+    {
+      "id": 127,
+      "infinitive": "Strike",
+      "past_simple": "Struck",
+      "past_participle": "Struck",
+      "spanish": "Golpear",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "strike struck struck golpear"
+    },
+    {
+      "id": 128,
+      "infinitive": "Swear",
+      "past_simple": "Swore",
+      "past_participle": "Sworn",
+      "spanish": "Jurar",
+      "family_id": "ear_ore_orn",
+      "family_name": "The 'Wear - Wore - Worn' Group",
+      "search_text": "swear swore sworn jurar"
+    },
+    {
+      "id": 129,
+      "infinitive": "Sweat",
+      "past_simple": "Sweat",
+      "past_participle": "Sweat",
+      "spanish": "Sudar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "sweat sweat sweat sudar"
+    },
+    {
+      "id": 130,
+      "infinitive": "Sweep",
+      "past_simple": "Swept",
+      "past_participle": "Swept",
+      "spanish": "Barrer",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "sweep swept swept barrer"
+    },
+    {
+      "id": 131,
+      "infinitive": "Swell",
+      "past_simple": "Swelled",
+      "past_participle": "Swollen",
+      "spanish": "Hinchar",
+      "family_id": "special_en",
+      "family_name": "The '-en' Participle Group (Show - Showed - Shown...)",
+      "search_text": "swell swelled swollen hinchar"
+    },
+    {
+      "id": 132,
+      "infinitive": "Swim",
+      "past_simple": "Swam",
+      "past_participle": "Swum",
+      "spanish": "Nadar",
+      "family_id": "i_a_u",
+      "family_name": "The 'I - A - U' Vowel Shift (Sing - Sang - Sung)",
+      "search_text": "swim swam swum nadar"
+    },
+    {
+      "id": 133,
+      "infinitive": "Swing",
+      "past_simple": "Swung",
+      "past_participle": "Swung",
+      "spanish": "Columpiarse",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "swing swung swung columpiarse"
+    },
+    {
+      "id": 134,
+      "infinitive": "Take",
+      "past_simple": "Took",
+      "past_participle": "Taken",
+      "spanish": "Coger, Tomar",
+      "family_id": "take_took_taken",
+      "family_name": "The 'Take - Took - Taken' / Shake Family",
+      "search_text": "take took taken coger, tomar"
+    },
+    {
+      "id": 135,
+      "infinitive": "Teach",
+      "past_simple": "Taught",
+      "past_participle": "Taught",
+      "spanish": "Enseñar",
+      "family_id": "ought_aught",
+      "family_name": "The 'Ought / Aught' Rhymers (Bring - Brought - Brought)",
+      "search_text": "teach taught taught enseñar"
+    },
+    {
+      "id": 136,
+      "infinitive": "Tear",
+      "past_simple": "Tore",
+      "past_participle": "Torn",
+      "spanish": "Rasgar, Romper",
+      "family_id": "ear_ore_orn",
+      "family_name": "The 'Wear - Wore - Worn' Group",
+      "search_text": "tear tore torn rasgar, romper"
+    },
+    {
+      "id": 137,
+      "infinitive": "Tell",
+      "past_simple": "Told",
+      "past_participle": "Told",
+      "spanish": "Decir, Contar",
+      "family_id": "ell_old_old",
+      "family_name": "The 'Sell - Sold - Sold' / Tell Group",
+      "search_text": "tell told told decir, contar"
+    },
+    {
+      "id": 138,
+      "infinitive": "Think",
+      "past_simple": "Thought",
+      "past_participle": "Thought",
+      "spanish": "Pensar",
+      "family_id": "ought_aught",
+      "family_name": "The 'Ought / Aught' Rhymers (Bring - Brought - Brought)",
+      "search_text": "think thought thought pensar"
+    },
+    {
+      "id": 139,
+      "infinitive": "Throw",
+      "past_simple": "Threw",
+      "past_participle": "Thrown",
+      "spanish": "Arrojar, Tirar",
+      "family_id": "ow_ew_own",
+      "family_name": "The 'Blow - Blew - Blown' Family",
+      "search_text": "throw threw thrown arrojar, tirar"
+    },
+    {
+      "id": 140,
+      "infinitive": "Thrust",
+      "past_simple": "Thrust",
+      "past_participle": "Thrust",
+      "spanish": "Introducir, Empujar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "thrust thrust thrust introducir, empujar"
+    },
+    {
+      "id": 141,
+      "infinitive": "Tread",
+      "past_simple": "Trod",
+      "past_participle": "Trodden",
+      "spanish": "Pisar, Hollar",
+      "family_id": "core_essential",
+      "family_name": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+      "search_text": "tread trod trodden pisar, hollar"
+    },
+    {
+      "id": 142,
+      "infinitive": "Understand",
+      "past_simple": "Understood",
+      "past_participle": "Understood",
+      "spanish": "Entender",
+      "family_id": "stand_stood_stood",
+      "family_name": "The 'Stand - Stood - Stood' Family",
+      "search_text": "understand understood understood entender"
+    },
+    {
+      "id": 143,
+      "infinitive": "Undergo",
+      "past_simple": "Underwent",
+      "past_participle": "Undergone",
+      "spanish": "Sufrir, Experimentar",
+      "family_id": "core_essential",
+      "family_name": "Essential Irregular Power Verbs (Be, Do, Go, Have, Eat...)",
+      "search_text": "undergo underwent undergone sufrir, experimentar"
+    },
+    {
+      "id": 144,
+      "infinitive": "Undertake",
+      "past_simple": "Undertook",
+      "past_participle": "Undertaken",
+      "spanish": "Emprender",
+      "family_id": "take_took_taken",
+      "family_name": "The 'Take - Took - Taken' / Shake Family",
+      "search_text": "undertake undertook undertaken emprender"
+    },
+    {
+      "id": 145,
+      "infinitive": "Wake",
+      "past_simple": "Woke",
+      "past_participle": "Woken",
+      "spanish": "Despertarse",
+      "family_id": "wake_woke_woken",
+      "family_name": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+      "search_text": "wake woke woken despertarse"
+    },
+    {
+      "id": 146,
+      "infinitive": "Wear",
+      "past_simple": "Wore",
+      "past_participle": "Worn",
+      "spanish": "Llevar puesto, Vestir",
+      "family_id": "ear_ore_orn",
+      "family_name": "The 'Wear - Wore - Worn' Group",
+      "search_text": "wear wore worn llevar puesto, vestir"
+    },
+    {
+      "id": 147,
+      "infinitive": "Weave",
+      "past_simple": "Wove",
+      "past_participle": "Woven",
+      "spanish": "Tejer",
+      "family_id": "wake_woke_woken",
+      "family_name": "The 'O-K-E / O-K-E-N' Group (Break - Broke - Broken)",
+      "search_text": "weave wove woven tejer"
+    },
+    {
+      "id": 148,
+      "infinitive": "Weep",
+      "past_simple": "Wept",
+      "past_participle": "Wept",
+      "spanish": "Llorar",
+      "family_id": "ee_to_ept",
+      "family_name": "The 'Sleep - Slept - Slept' / Keep / Feel Group",
+      "search_text": "weep wept wept llorar"
+    },
+    {
+      "id": 149,
+      "infinitive": "Wet",
+      "past_simple": "Wet",
+      "past_participle": "Wet",
+      "spanish": "Mojar",
+      "family_id": "no_change",
+      "family_name": "The 'No Change' Verbs (All 3 Forms Identical)",
+      "search_text": "wet wet wet mojar"
+    },
+    {
+      "id": 150,
+      "infinitive": "Win",
+      "past_simple": "Won",
+      "past_participle": "Won",
+      "spanish": "Ganar",
+      "family_id": "i_short_en",
+      "family_name": "The Short 'I' / Vowel Reduction Group",
+      "search_text": "win won won ganar"
+    },
+    {
+      "id": 151,
+      "infinitive": "Wind",
+      "past_simple": "Wound",
+      "past_participle": "Wound",
+      "spanish": "Enrollar",
+      "family_id": "ind_ound",
+      "family_name": "The 'Bind - Bound - Bound' / Find Group",
+      "search_text": "wind wound wound enrollar"
+    },
+    {
+      "id": 152,
+      "infinitive": "Withdraw",
+      "past_simple": "Withdrew",
+      "past_participle": "Withdrawn",
+      "spanish": "Retirarse",
+      "family_id": "ow_ew_own",
+      "family_name": "The 'Blow - Blew - Blown' Family",
+      "search_text": "withdraw withdrew withdrawn retirarse"
+    },
+    {
+      "id": 153,
+      "infinitive": "Wring",
+      "past_simple": "Wrung",
+      "past_participle": "Wrung",
+      "spanish": "Torcer, Retorcer",
+      "family_id": "ing_ung",
+      "family_name": "The 'Stick - Stuck - Stuck' / Dig / Hang Group",
+      "search_text": "wring wrung wrung torcer, retorcer"
+    },
+    {
+      "id": 154,
+      "infinitive": "Write",
+      "past_simple": "Wrote",
+      "past_participle": "Written",
+      "spanish": "Escribir",
+      "family_id": "i_o_en",
+      "family_name": "The 'Drive - Drove - Driven' Group",
+      "search_text": "write wrote written escribir"
+    }
+  ]
+}

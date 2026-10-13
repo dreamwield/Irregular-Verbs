@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende los Verbos Irregulares con Música | Canción MP3 Oficial</title>
+  <meta name="description" content="Aprende y memoriza todos los 154 verbos irregulares en inglés del PDF con música, ritmo, rimas mnemotécnicas, karaoke en vivo y descargas MP3 en calidad estudio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Audio Element -->
+  <audio id="master-audio" preload="metadata"></audio>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="container">
+      <div class="hero-badge">🎵 Método Mnemotécnico Musical</div>
+      <h1 class="hero-title">Irregular Verbs Music Academy</h1>
+      <p class="hero-subtitle">
+        Domina todos los <strong>154 verbos irregulares</strong> de tu lista PDF a través del ritmo, las rimas fonéticas y la memoria musical auditiva.
+      </p>
+
+      <!-- Quick Stats -->
+      <div class="hero-stats">
+        <div class="stat-pill">
+          <span class="stat-icon">📄</span>
+          <div>
+            <div class="stat-val">154 Verbos</div>
+            <div class="stat-lbl">Lista Oficial PDF</div>
+          </div>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-icon">🎧</span>
+          <div>
+            <div class="stat-val">3 Canciones MP3</div>
+            <div class="stat-lbl">Calidad Estudio 192k</div>
+          </div>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-icon">🎤</span>
+          <div>
+            <div class="stat-val">Karaoke en Vivo</div>
+            <div class="stat-lbl">Sincronizado al segundo</div>
+          </div>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-icon">🧠</span>
+          <div>
+            <div class="stat-val">Entrenador Quiz</div>
+            <div class="stat-lbl">Memoria Activa</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs" aria-label="Secciones">
+        <button class="tab-btn active" data-tab="player" id="tab-btn-player">
+          <span>🎧</span> Reproductor & Karaoke
+        </button>
+        <button class="tab-btn" data-tab="explorer" id="tab-btn-explorer">
+          <span>📖</span> Lista PDF (154 Verbos)
+        </button>
+        <button class="tab-btn" data-tab="quiz" id="tab-btn-quiz">
+          <span>⚡</span> Desafío Quiz
+        </button>
+        <button class="tab-btn" data-tab="downloads" id="tab-btn-downloads">
+          <span>⬇️</span> Descargas MP3 & PDF
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- ==============================================================
+         TAB 1: REPRODUCTOR & LIVE KARAOKE
+         ============================================================== -->
+    <section class="tab-content active" id="tab-player">
+      <!-- Player Card -->
+      <div class="player-card">
+        <!-- Track Selection Grid -->
+        <div class="track-selector" id="track-selector-list">
+          <div class="track-card active" data-track-index="0" id="track-card-0">
+            <div class="track-badge">🎵</div>
+            <div class="track-info">
+              <h3>1. Canción de Rimas & Familias</h3>
+              <p>Agrupados por similitud de sonido y ritmo</p>
+            </div>
+            <div class="track-duration">8:45</div>
+          </div>
+
+          <div class="track-card" data-track-index="1" id="track-card-1">
+            <div class="track-badge">📖</div>
+            <div class="track-info">
+              <h3>2. PDF Completo A - Z (Lo-Fi)</h3>
+              <p>Los 154 verbos en orden exacto del PDF</p>
+            </div>
+            <div class="track-duration">12:15</div>
+          </div>
+
+          <div class="track-card" data-track-index="2" id="track-card-2">
+            <div class="track-badge">⚡</div>
+            <div class="track-info">
+              <h3>3. Desafío Beat Quiz</h3>
+              <p>Di la 3ª forma en el silencio del beat</p>
+            </div>
+            <div class="track-duration">5:44</div>
+          </div>
+        </div>
+
+        <!-- Visualizer & Info -->
+        <div class="visualizer-wrapper">
+          <canvas id="audio-visualizer"></canvas>
+          <div class="now-playing-banner">
+            <h2 class="now-playing-title" id="now-playing-title">01. Irregular Verbs Rhyme Song</h2>
+            <p class="now-playing-desc" id="now-playing-desc">Aprende por rimas y familias de sonido</p>
+          </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+          <div class="progress-bar-wrap" id="progress-wrap">
+            <div class="progress-filled" id="progress-filled"></div>
+          </div>
+          <div class="time-row">
+            <span id="time-current">0:00</span>
+            <span id="time-total">8:45</span>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="player-controls">
+          <div class="controls-left">
+            <select class="speed-select" id="speed-select" title="Velocidad de reproducción">
+              <option value="0.75">0.75x Lento (Práctica)</option>
+              <option value="0.9">0.9x Cómodo</option>
+              <option value="1.0" selected>1.0x Normal</option>
+              <option value="1.25">1.25x Rápido (Master)</option>
+            </select>
+          </div>
+
+          <div class="controls-center">
+            <button class="icon-btn" id="btn-rewind" title="Retroceder 10 segundos">⏪</button>
+            <button class="play-main-btn" id="btn-play" title="Reproducir / Pausar">
+              <span id="play-icon">▶</span>
+            </button>
+            <button class="icon-btn" id="btn-forward" title="Avanzar 10 segundos">⏩</button>
+          </div>
+
+          <div class="controls-right">
+            <div class="volume-wrap">
+              <button class="icon-btn" id="btn-mute" style="width:36px; height:36px; font-size: 0.95rem;">
+                <span id="mute-icon">🔊</span>
+              </button>
+              <input type="range" class="volume-slider" id="volume-slider" min="0" max="1" step="0.05" value="1">
+            </div>
+
+            <a href="01_Irregular_Verbs_Rhyme_Song.mp3" download class="download-track-btn" id="btn-download-active" title="Descargar MP3 de este tema">
+              <span>⬇️</span> MP3
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Karaoke Lyrics Panel -->
+      <div class="karaoke-wrapper">
+        <div class="karaoke-card" id="karaoke-card">
+          <div id="karaoke-list">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         TAB 2: VERBOS DEL PDF (154 VERBOS & SOUNDBOARD)
+         ============================================================== -->
+    <section class="tab-content" id="tab-explorer">
+      <div class="explorer-header">
+        <!-- Search Box -->
+        <div class="search-box-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" class="search-input" id="search-verbs" placeholder="Buscar por verbo en inglés o traducción en español...">
+        </div>
+
+        <!-- Page Range Filter Buttons -->
+        <div class="range-presets" style="justify-content: center; margin-bottom: 14px;">
+          <button class="range-preset-btn active" data-exp-start="1" data-exp-end="154" id="exp-btn-all">🌟 Todos (1 - 154)</button>
+          <button class="range-preset-btn" data-exp-start="1" data-exp-end="49" id="exp-btn-p1">📄 Pág. 1 (#1 a #49: Arise - Freeze)</button>
+          <button class="range-preset-btn" data-exp-start="50" data-exp-end="102" id="exp-btn-p2">📄 Pág. 2 (#50 a #102: Get - Shut)</button>
+          <button class="range-preset-btn" data-exp-start="103" data-exp-end="154" id="exp-btn-p3">📄 Pág. 3 (#103 a #154: Sing - Write)</button>
+        </div>
+
+        <!-- Rhyme Family Filter Chips -->
+        <div class="family-filters" id="family-filters">
+          <button class="filter-chip active" data-family="all">Todas las Familias</button>
+          <button class="filter-chip" data-family="no_change">🎯 3 Iguales (Bet, Cut, Hit...)</button>
+          <button class="filter-chip" data-family="i_a_u">🎵 I - A - U (Sing, Drink...)</button>
+          <button class="filter-chip" data-family="ought_aught">💡 Ought/Aught (Bring, Buy...)</button>
+          <button class="filter-chip" data-family="ow_ew_own">🍃 Blow-Blew-Blown</button>
+          <button class="filter-chip" data-family="ee_to_ept">💤 Sleep-Slept-Slept</button>
+          <button class="filter-chip" data-family="d_to_t">⚡ D ➔ T (Send-Sent-Sent)</button>
+          <button class="filter-chip" data-family="wake_woke_woken">💥 Break-Broke-Broken</button>
+          <button class="filter-chip" data-family="ear_ore_orn">👕 Wear-Wore-Worn</button>
+          <button class="filter-chip" data-family="i_o_en">🚗 Drive-Drove-Driven</button>
+          <button class="filter-chip" data-family="core_essential">⭐ Esenciales (Be, Do, Go...)</button>
+        </div>
+      </div>
+
+      <!-- Verbs Cards Grid -->
+      <div class="verbs-grid" id="verbs-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         TAB 3: ARENA DE QUIZ INTERACTIVO
+         ============================================================== -->
+    <section class="tab-content" id="tab-quiz">
+      <div class="quiz-wrapper">
+        <!-- Range Selector for Quiz -->
+        <div class="range-selector-card">
+          <div class="range-header">
+            <h3>🎯 Selecciona los Verbos para el Quiz</h3>
+            <span class="range-active-badge" id="quiz-pool-badge">49 verbos (#1 a #49)</span>
+          </div>
+
+          <!-- Presets -->
+          <div class="range-presets" id="quiz-range-presets">
+            <button class="range-preset-btn active" data-start="1" data-end="49" id="btn-quiz-p1">📄 Pág. 1 (#1 a #49: Arise a Freeze)</button>
+            <button class="range-preset-btn" data-start="50" data-end="102" id="btn-quiz-p2">📄 Pág. 2 (#50 a #102: Get a Shut)</button>
+            <button class="range-preset-btn" data-start="103" data-end="154" id="btn-quiz-p3">📄 Pág. 3 (#103 a #154: Sing a Write)</button>
+            <button class="range-preset-btn" data-start="1" data-end="154" id="btn-quiz-all">🌟 Todos (#1 a #154)</button>
+          </div>
+
+          <!-- Custom range input -->
+          <div class="custom-range-row">
+            <span>Rango personalizado:</span>
+            <label for="quiz-range-min" style="margin-left: 6px;">Desde #</label>
+            <input type="number" id="quiz-range-min" min="1" max="154" value="1" class="range-num-input">
+            <label for="quiz-range-max">Hasta #</label>
+            <input type="number" id="quiz-range-max" min="1" max="154" value="49" class="range-num-input">
+            <button class="btn-apply-range" id="btn-apply-quiz-range">Aplicar Rango</button>
+          </div>
+        </div>
+
+        <!-- Scoreboard -->
+        <div class="quiz-score-board">
+          <div class="score-item">
+            <div class="score-num" id="quiz-score">0</div>
+            <div class="score-lbl">Puntos</div>
+          </div>
+          <div class="score-item">
+            <div class="score-num" id="quiz-streak">0</div>
+            <div class="score-lbl">Racha Actual 🔥</div>
+          </div>
+          <div class="score-item">
+            <div class="score-num" id="quiz-total">0</div>
+            <div class="score-lbl">Respondidas</div>
+          </div>
+        </div>
+
+        <!-- Quiz Card -->
+        <div class="quiz-card">
+          <div class="quiz-prompt-badge" id="quiz-item-badge">Verbo de la Lista</div>
+          <h2 class="quiz-verb-display" id="quiz-verb-display">Drink</h2>
+          <div class="quiz-trans-display" id="quiz-trans-display">Beber</div>
+
+          <div class="quiz-inputs-row">
+            <div class="quiz-input-group">
+              <label for="quiz-input-past">Pasado Simple (Past Simple)</label>
+              <input type="text" class="quiz-input" id="quiz-input-past" placeholder="ej. drank" autocomplete="off">
+            </div>
+            <div class="quiz-input-group">
+              <label for="quiz-input-part">Participio Pasado (Past Participle)</label>
+              <input type="text" class="quiz-input" id="quiz-input-part" placeholder="ej. drunk" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="quiz-btn-row">
+            <button class="btn-primary" id="btn-quiz-check">Comprobar Respuesta</button>
+            <button class="btn-secondary" id="btn-quiz-show">Ver Solución</button>
+            <button class="btn-secondary" id="btn-quiz-next">Siguiente Verbo ➔</button>
+          </div>
+
+          <div class="quiz-feedback" id="quiz-feedback"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         TAB 4: DESCARGAS MP3 & PDF
+         ============================================================== -->
+    <section class="tab-content" id="tab-downloads">
+      <div class="download-grid">
+        <!-- Card 1 -->
+        <div class="dl-card">
+          <div>
+            <div class="dl-card-icon dl-icon-1">🎵</div>
+            <h3 class="dl-card-title">Canción de Rimas & Familias</h3>
+            <p class="dl-card-desc">
+              La canción principal optimizada con beat hip-hop/pop rítmico a 102 BPM. Agrupa los verbos en 10 familias de sonido para una memorización inmediata.
+            </p>
+            <div class="dl-meta">
+              <span>⏱️ 8 min 45 s</span>
+              <span>💾 12.6 MB</span>
+              <span>🎧 192 kbps MP3</span>
+            </div>
+          </div>
+          <a href="01_Irregular_Verbs_Rhyme_Song.mp3" download class="dl-btn dl-btn-music">
+            <span>⬇️</span> Descargar Canción Rimas (MP3)
+          </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="dl-card">
+          <div>
+            <div class="dl-card-icon dl-icon-2">📖</div>
+            <h3 class="dl-card-title">PDF Completo A - Z (Estudio)</h3>
+            <p class="dl-card-desc">
+              Pista completa de estudio Lo-Fi Chillhop que recorre los <strong>154 verbos en el orden exacto del PDF</strong> (Arise a Write), con las páginas 1, 2 y 3.
+            </p>
+            <div class="dl-meta">
+              <span>⏱️ 12 min 15 s</span>
+              <span>💾 17.6 MB</span>
+              <span>🎧 192 kbps MP3</span>
+            </div>
+          </div>
+          <a href="02_Irregular_Verbs_Complete_A_to_Z.mp3" download class="dl-btn dl-btn-music">
+            <span>⬇️</span> Descargar PDF Completo A-Z (MP3)
+          </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="dl-card">
+          <div>
+            <div class="dl-card-icon dl-icon-3">⚡</div>
+            <h3 class="dl-card-title">Desafío Beat Quiz (Memoria Activa)</h3>
+            <p class="dl-card-desc">
+              Pista interactiva donde la voz dice el infinitivo y pasado, deja un silencio musical para que cantes la respuesta en voz alta y luego te confirma el resultado.
+            </p>
+            <div class="dl-meta">
+              <span>⏱️ 5 min 44 s</span>
+              <span>💾 8.26 MB</span>
+              <span>🎧 192 kbps MP3</span>
+            </div>
+          </div>
+          <a href="03_Irregular_Verbs_Challenge_Quiz.mp3" download class="dl-btn dl-btn-music">
+            <span>⬇️</span> Descargar Desafío Quiz (MP3)
+          </a>
+        </div>
+
+        <!-- Card 4: Original PDF -->
+        <div class="dl-card">
+          <div>
+            <div class="dl-card-icon dl-icon-pdf">📄</div>
+            <h3 class="dl-card-title">Documento PDF Original</h3>
+            <p class="dl-card-desc">
+              El archivo original <strong>IRREGULAR-VERBS.pdf</strong> con la tabla de 3 páginas con Infinitivo, Pasado Simple, Participio y Español.
+            </p>
+            <div class="dl-meta">
+              <span>📄 3 Páginas</span>
+              <span>💾 178 KB</span>
+              <span>📑 Documento PDF</span>
+            </div>
+          </div>
+          <a href="IRREGULAR-VERBS.pdf" download class="dl-btn dl-btn-pdf" target="_blank">
+            <span>⬇️</span> Abrir / Descargar PDF
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="container">
+      <p>Irregular Verbs Music Academy · Basado en el documento oficial <strong>IRREGULAR-VERBS.pdf</strong> (154 Verbos)</p>
+      <p style="margin-top: 6px;">Creado para aprender inglés de manera divertida, rápida y memorable con audio MP3.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
